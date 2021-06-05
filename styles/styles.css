@@ -48,6 +48,7 @@ nav {
 }
 
 nav ul {
+    color: black;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -64,6 +65,16 @@ nav li {
     display: flex;
     padding: 10px;
     justify-content: space-around;
+}
+
+.siteLink {
+    background-color: rgba(107, 173, 31, 0.74);
+    margin: 10px 0px;
+    color: black;
+}
+
+.siteLink:hover {
+    border: 1px solid black;
 }
 
 .projectReport {

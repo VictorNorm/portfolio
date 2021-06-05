@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    src: url("https://fonts.google.com/specimen/Roboto?query=Roboto");
+}
+
+
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, nav {
+    max-width: 1100px;
+    /* max-width: 1300px; */
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+header, nav {
+    background-color: rgb(48, 173, 48);
+}
+
+body {
+    background-color: rgb(247, 245, 245);
+}
+
+main {
+    background-color: white;
+}
+
+nav a {
+    color: black;
+}
+
+h1 {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.project {
+    border: 1px solid rgb(129, 129, 129);
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.projectReport {
+    border: 1px solid rgb(129, 129, 129);
+    margin: 20px;
+    padding: 10px;
+}
+
+.projectReport p {
+    margin: 20px 0px;
+}
+
+.projectReport ul {
+    list-style: none;
+}
+
+.innerSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.project p:first-child {
+    text-decoration: underline;
+}
+
+
+.project p {
+    margin: 10px;
+}
+
+.projectImage {
+    height: 200px;
+}
+
+
+

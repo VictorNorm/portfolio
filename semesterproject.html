@@ -11,43 +11,75 @@
 
 <body>
     <header>
-        <h1>Victor Normans portfolio AUG20FE.</h1>
+        <h1><a href="index.html">Victor Normans portfolio AUG20FE.</a></h1>
     </header>
     <nav>
         <ul>
             <li><a href="crosscourse.html">Cross course project</a></li>
-            <li><a href="semesterproject.html">Semester project 1</a></li>
+            <li class="active"><a href="semesterproject.html">Semester project 1</a></li>
             <li><a href="projectexam.html">Project exam 1</a></li>
         </ul>
     </nav>
     <main>
         <section class="project">
             <section class="innerSection">
-                <p>This is the first project we did, revisited later during the year and updated.</p>
-                <a href="https://heuristic-khorana-e11ac0.netlify.app/">
-                    <p>Cross course project >></p>
+                <p>This is the second project we did</p>
+                <a href="https://confident-hermann-b41e8b.netlify.app/" class="siteLink">
+                    <p>Semester project >></p>
+                </a>
+                <a href="https://github.com/VictorNorm/Semester_project" class="siteLink">
+                    <p>Github repo >></p>
                 </a>
             </section>
-            <img src="/images/Rainydays.jpg" alt="An image of the project Rainydays" class="projectImage">
+            <img src="/images/semesterproject.jpg" alt="An image of the project Semester project 1"
+                class="projectImage">
         </section>
         <section class="projectReport">
-            <h2>Cross course report.</h2>
-            <p>This was the first project of the year, and this was the first website i've ever built in my life.</p>
-            <p>As usual the aspect of front end development i struggle most with is the design part, the subjectivity of
-                design makes it a challenging thing to perform well in for me.
-            I have mixed feelings about everything I've turned in so far, I'm happy with some aspects and have a
-                decent view of a couple of aspects that should have been done differently. There are big improvements
-                to be made in general around the site regarding colours, aesthetics and so on.</p>
+            <h2>Semester project report.</h2>
+            <p>This was the second project of the year, and this was the second website i've ever built in my life.</p>
+            <p>As usual the aspect of front end development i struggle most with is the design part, Id like to think
+                that this website is more visually appealing than my first project.
+                I'm happy with how the coloration, fonts and the hierarchy turned out. There are big improvements
+                to be made in general around the site regarding functionality.</p>
             <p><strong>Here are some of the updates i've made during the last week.</strong></p>
             <ul>
-                <li>-Details page functionality</li>
-                <li>-Exporting and importing functions</li>
-                <li>-Converted the from locally stored data to data from a headless wordpress</li>
-                <li>-Changed the order/visibility of elements on the cart page.</li>
-                <li>-Added functionality on the cart page allowing the user to view different images.</li>
-                <li>-Generated products into different categories based on their gender category.</li>
+                <li>-Fixed bug bug with images stretching in chrome.</li>
+                <li>-Fixed disappearance of image on index page</li>
+                <li>-Fixed bug with font imports.</li>
+                <li>-Removed placeholder text in inputs on the tickets page.</li>
+                <li>-Added text on smaller adds on experiences page</li>
+                <li>-Changed the structure for the smaller adds removing major stretching issues</li>
                 <li>-Different smaller aesthetic tweaks.</li>
-            </ul>    
+            </ul>
+            <p><strong>Fix image bug:</strong> The image on the front page stretched to 3 times the intended height in
+                chrome, making the front page look awful</p>
+            <p><strong>Fix disappearing image:</strong> The image on the front page vanished completely at lower screen
+                sizes</p>
+            <p><strong>Fix font bug:</strong> The syntax of the font importation was wrong, fixed this issue.</p>
+            <p><strong>Removed placeholder text:</strong> I removed the placeholder text on the tickets page as this
+                created unneccessary clutter on the page. There was no need for it.</p>
+            <p><strong>Changed add structure:</strong> The adds didn't respond the way I originally intended them to,
+                fixed this by making small tweaks, the goal here was to create a more responsive page.</p>
+            <p><strong>Conclusion: </strong>The experience of looking back at this project is similar to looking back at
+                the first project. There are lots of things that could have been done in more efficient way. For this
+                project the CSS is the part that could have improved the most (this is quite obvious since it is the
+                biggest part of the project).</p>
+            <p>I chose not to add any JS because I felt that time would be better spent improving the other 2 projects.
+                Would I have been more efficient in development during this project I would have structured it
+                differently. The naming conventions in the CSS i think are quite messy, the whole file could be a lot
+                shorter. I think I also could have managed with fewer media queries.</p>
+            <p>If I started to make improvements with JS it would result in spending as much time as I did on the whole
+                project, it might be that this is what you are after but I didn't percieve it as such.</p>
+            <p>Some of the things i know I would have added if I remade the whole project..</p>
+            <ul>
+                <li>-A fully functional calendar.</li>
+                <li>-More fleshed out information about the events at the museum (preferably with videos).</li>
+                <li>-Animations for some of the CTA-buttons indicating that an action has been taken/recieved (example:
+                    when booking has been succesful)</li>
+            </ul>
+            <p>There are still lots more to improve as there always is, but what I've learned from this project is: To
+                make something more visually appealing, and most of all: CHECK that it works in different browsers,
+                (can't believe I fell into this trap).</p>
         </section>
 
     </main>
